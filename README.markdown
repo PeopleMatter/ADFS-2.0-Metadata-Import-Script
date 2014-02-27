@@ -1,4 +1,2 @@
-### Add Developer Powershell Script
-
-##### I wrote this to automatically import generated federation metadata (.xml) files into ADFS 2.0
-
+### Automatically import metadata into ADFS 2.0
+This relies on having a relying party trust manually created that's configured appropriately, and this will spawn new trusts based off of the claims configuration settings of that trust.
